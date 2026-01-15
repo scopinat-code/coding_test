@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조용익의 자기개발 홈페이지</title>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+    <style>
+        body {
+    /* 우주 배경 이미지 연결 (무료 고화질 이미지 주소) */
+    background-image: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1920&q=80');
+    
+    /* 이미지가 화면에 꽉 차게 설정 */
+    background-size: cover;
+    
+    /* 스크롤을 내려도 배경은 고정되게 설정 */
+    background-attachment: fixed;
+    
+    /* 이미지의 중심이 보이게 설정 */
+    background-position: center;
+    
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 배경이 어두우므로 글자 영역을 하얗게 띄워 가독성을 높입니다 */
+        main, header {
+    background-color: rgba(255, 255, 255, 0.9); /* 90% 불투명한 흰색 */
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+        h1 { color: #2c3e50; }
+        h3 { color: #34495e; margin-top: 30px; }
+        .content-box { background: white; padding: 25px 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        li { margin-bottom: 10px; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>나의 자기개발 홈페이지</h1>
+        <p>앞으로 아래의 내용을 채워갈 예정입니다.</p>
+    </header>
+
+    <main>
+        <section>
+            <h3>포함하고 싶은 사항</h3>
+            <ol class="content-box">
+                <li>자기소개 (지금까지 살아온 길)</li>
+                <li>자기소개 (앞으로 하고 싶은 일)</li>
+                <li>자기개발 내용 (학습할 것)</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>주요 링크</h3>
+            <ul class="content-box">
+                <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li><a href="https://gemini.google.com/app" target="_blank">Google Gemini</a></li>
+                <li><a href="https://drive.google.com" target="_blank">Google Drive</a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
