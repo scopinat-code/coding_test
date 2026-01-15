@@ -6,3 +6,5 @@ html = response.text
 soup = beautifulsoup(html, 'html.parser')
 
 pip install pandas
+pip install openpyx
+pip install xlwt
